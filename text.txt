@@ -1,0 +1,4 @@
+
+it installation
+Git sttaus
+git checkout
