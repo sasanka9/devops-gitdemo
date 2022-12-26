@@ -2,3 +2,6 @@
 it installation
 Git sttaus
 git checkout
+git bash
+git log
+
