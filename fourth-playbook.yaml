@@ -1,0 +1,9 @@
+---
+- name: Install Docker using this playbook
+  hosts: all
+  become: true
+  tasks:
+    - name: Add Docker GPG apt key 
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
