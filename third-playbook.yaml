@@ -1,0 +1,9 @@
+---
+- name: Create a file using playbook
+  hosts: all
+  become: true
+  tasks:
+  - name: create a file
+    file:
+      path: /home/ubuntu/devopsclass.txt
+      state: touch   
